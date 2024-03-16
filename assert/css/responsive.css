@@ -1,0 +1,155 @@
+/* Mobile and Tablet */
+@media (max-width: 1023px){
+    #line-advertise{
+        justify-content: center;
+    }
+
+    #header{
+        position: relative;
+        height: 80px;
+    }
+
+    .header__item--logo{
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        transform: translateX(-240%);
+    }
+
+    .header__feature--little-item.fa-bag-shopping.tb{
+        display: block;
+        position: absolute;
+        bottom: 20px;
+        right: 10px;
+        font-size: 25px;
+    }
+
+    .header__cart--amount.tb{
+        position: absolute;
+        bottom: 28px;
+        right: 10px;
+    }
+
+    .footer-copyright__text{
+        text-align: center;
+    }
+
+    .footer-credit{
+        margin-top: 10px;
+        justify-content: center;
+    }
+
+    .footer__soccial-list{
+        justify-content: center;
+    }
+}
+
+/* Mobile */
+@media (max-width: 767px){
+    #nav{
+        display: none;
+    }
+
+    #banner{
+        height: 50vh;
+    }
+
+    .banner__background{
+        height: 50vh;
+    }
+
+    .new-arrivals__product{
+        margin-top: 50px;
+    }
+
+    .new-arrivals__product--image{
+        height: 425px;
+    }
+
+    .new-arrivals__add-to-cart{
+        opacity: 1;
+    }
+
+    .product__color-circle--label{
+        height: 50px;
+        width: 50px;
+    }
+    
+    .over-color-text{
+        font-size: 25px;
+    }
+
+    .gallery__img-item{
+        width: 210px;
+        height: 210px;
+    }
+
+    .gallery__btn-left{
+        left: 15px;
+        scale: 1.5;
+    }
+
+    .gallery__btn-right{
+        right: 15px;
+        scale: 1.5;
+    }
+
+    #footer{
+        height: 1000px;
+    }
+
+
+}
+
+/*Tablet */
+@media (min-width: 768px) and (max-width: 1023px){
+    .nav__menu:first-child{
+        margin-left: 35px;
+    }
+
+    #banner{
+        height: 50vh;
+    }
+
+    .banner__background{
+        height: 50vh;
+    }
+
+    .new-arrivals__product{
+        margin-top: 20px;
+    }
+
+    .new-arrivals__product--image{
+        height: 375px;
+    }
+
+    .new-arrivals__add-to-cart{
+        opacity: 1;
+    }
+
+    .product__color-circle--label{
+        height: 40px;
+        width: 40px;
+    }
+
+    .gallery__btn-left{
+        left: 20px;
+        scale: 1.2;
+    }
+
+    .gallery__btn-right{
+        right: 20px;
+        scale: 1.2;
+    }
+
+    #footer{
+        height: 1020px;
+    }
+
+    #footer .footer__feature-group > .row{
+        justify-content: space-between;
+        padding: 0 10px;
+    }
+
+}
+
